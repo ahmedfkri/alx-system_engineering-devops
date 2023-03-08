@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a1v | awk '{printf "%s%s", $0, (/\/$/ ? "," : "\n")}'
+ls -av | awk '{printf "%s%s", $0, (/\/$/ ? "," : ",")}'
